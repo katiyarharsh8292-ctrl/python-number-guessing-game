@@ -6,6 +6,7 @@ print("welcome to number guessing game!")
 print("mene 1 se 100 ke beech number choose kiya hai.")
 while True:
     guess=int(input("apna number guess kro:"))
+    attempt=+1
     if guess<number:
         print("too low! thoda bada number try kro.")
     elif guess>number:
